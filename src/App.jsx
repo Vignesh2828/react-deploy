@@ -21,7 +21,7 @@ const App = () => {
   }, []);
 
   return (
-    <Router>
+    <Router basename="/react-deploy">
       <div>
         <Navbar />
         <Routes>
