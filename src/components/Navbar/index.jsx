@@ -1,6 +1,7 @@
 import React, { useState } from 'react';
 import { Link } from 'react-router-dom';
 import './navbar.css';
+import logo from '../../assets/images/star-bucks.png'
 
 const Navbar = () => {
   const [menuOpen, setMenuOpen] = useState(false); // State to toggle the menu visibility
@@ -12,7 +13,7 @@ const Navbar = () => {
   return (
     <nav className="navbar">
       <div className="logo">
-        <img src="/img/test.avif" alt="Logo" />
+        <img src={logo} alt="Logo" />
       </div>
       
       <div className={`nav-links ${menuOpen ? 'active' : ''}`}>
