@@ -4,8 +4,7 @@ import './navbar.css';
 import logo from '../../assets/images/star-bucks.png'
 
 const Navbar = () => {
-  const [menuOpen, setMenuOpen] = useState(false); // State to toggle the menu visibility
-
+  const [menuOpen, setMenuOpen] = useState(false); 
   const toggleMenu = () => {
     setMenuOpen(!menuOpen);
   };
